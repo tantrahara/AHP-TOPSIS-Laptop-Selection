@@ -1,0 +1,120 @@
+body{
+  background-color: #eaeaea;
+  font : 16px/28px arial, sans-serif;
+  color : #333;
+}
+
+.top{
+  background-color: #555555;
+  color: #EEEEEE;
+}
+
+.header{
+
+}
+
+.header .judul{
+  font-size: 35px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.navigasi{
+  width: 1200px;
+  margin: auto;
+  padding: 5px;
+}
+
+.navigasi .log{
+  display: inline-block;
+  float: right;
+}
+
+.navigasi a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #EEEEEE;
+  padding: 3px;
+}
+
+.navigasi a:hover{
+  color: #CC5151;
+}
+
+.deskripsi{
+  width: 1200px;
+  margin: auto;
+}
+
+.deskripsi-paragraf{
+  width: 600px;
+  font-size: 21px;
+}
+
+.main{
+  width: 1200px;
+  margin: auto;
+  background-color: #F6F6F6;
+}
+
+thead th {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  background-color: #949494;
+  color: #EEEEEE;
+}
+
+.TInput{
+  width: 600px;
+}
+
+.main a{
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+  padding: 3px;
+}
+
+.main a:hover{
+  color: #CC5151;
+}
+
+.main-button{
+  width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+button{
+  width: 180px;
+  background-color: #699DB6;
+  border-color: rgba(0,0,0,0.3);
+  text-shadow: 0 1px 0 rgba(0,0,0,0.5)
+  color: #FFF;
+}
+button:hover{
+  background-color: #4F87A2;
+	border-color: rgba(0,0,0,0.5);
+}
+button:active{
+  background-color: #3C677B;
+	border-color: rgba(0,0,0,0.9);
+}
+
+select{
+  width: 320px;
+  background-color: #F6F6F6;
+}
+
+.main-tableD{
+  text-align: center;
+}
+.main-tableD .tableD {
+  display: inline-block;
+}
+
+.main h2 {
+  color: salmon;
+}
