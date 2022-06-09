@@ -6,7 +6,7 @@ class dataCrud
 
   public function __construct()
   {
-    $this->koneksi = mysqli_connect("localhost", "root", "", "laptopranks");
+    $this->koneksi = mysqli_connect("localhost", "root", "", "database");
   }
 
   public function query ($query1)//untuk memanggil data pada database
